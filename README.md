@@ -1,6 +1,6 @@
 # Wappalyzer
 
-  Detect the server side languages used for the website.
+  This is merely a port of the javascript parts of Wappalyzer extension for Firefox and Chrome. It analyzes a url and tries to guess what software it uses (like server software, CMS, framework, programming language).
 
 ## Installation
 

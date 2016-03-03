@@ -20,53 +20,53 @@ Or install it yourself as:
 
 # Usage
 
-  ```
-    url = "https://www.heroku.com/"
-    Wappalyzer::Detector.new.analyze(url)
-  ```
+```
+url = "https://www.heroku.com/"
+Wappalyzer::Detector.new.analyze(url)
+```
 
 ## Output
 
-  ```
-    {
-      "Cowboy" => {
-        "categories" => [
-          [0] "web-frameworks",
-          [1] "web-servers"
-        ],
-        "confidence" => 100,
-        "version" => ""
-      },
-      "Google Tag Manager" => {
-        "categories" => [
-          [0] "tag-managers"
-        ],
-        "confidence" => 100,
-          "version" => ""
-      },
-      "Ruby on Rails" => {
-        "categories" => [
-          [0] "web-frameworks"
-        ],
-        "confidence" => 50,
-        "version" => ""
-      },
-      "Erlang" => {
-        "categories" => [
-          [0] "programming-languages"
-        ],
-        "confidence" => 100,
-          "version" => ""
-      },
-      "Ruby" => {
-        "categories" => [
-          [0] "programming-languages"
-        ],
-        "confidence" => 50,
-          "version" => ""
-      }
-    }
-  ```
+```
+{
+  "Cowboy" => {
+    "categories" => [
+      [0] "web-frameworks",
+      [1] "web-servers"
+    ],
+    "confidence" => 100,
+    "version" => ""
+  },
+  "Google Tag Manager" => {
+    "categories" => [
+      [0] "tag-managers"
+    ],
+    "confidence" => 100,
+      "version" => ""
+  },
+  "Ruby on Rails" => {
+    "categories" => [
+      [0] "web-frameworks"
+    ],
+    "confidence" => 50,
+    "version" => ""
+  },
+  "Erlang" => {
+    "categories" => [
+      [0] "programming-languages"
+    ],
+    "confidence" => 100,
+      "version" => ""
+  },
+  "Ruby" => {
+    "categories" => [
+      [0] "programming-languages"
+    ],
+    "confidence" => 50,
+      "version" => ""
+  }
+}
+```
 
 
 

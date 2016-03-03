@@ -21,9 +21,10 @@ Or install it yourself as:
 # Usage
 
   url = 'https://www.heroku.com/'
+
   Wappalyzer::Detector.new.analyze(url)
 
-  ## Output
+## Output
 
   ```
     {

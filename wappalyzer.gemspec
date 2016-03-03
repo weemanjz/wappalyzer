@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["pulkit21"]
   spec.email         = ["pulkit.ag02@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Analyzes a provided url and returns any services it can detect}
+  spec.description   = %q{This is merely a port of the javascript parts of Wappalyzer extension for Firefox and Chrome. It analyzes a url and tries to guess what software it uses (like server software, CMS, framework, programming language).}
+  spec.homepage      = "https://github.com/pulkit21/wappalyzer"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
@@ -29,4 +29,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.11"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "therubyracer", "~> 0.12.2"
 end
